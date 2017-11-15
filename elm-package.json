@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "summary": "Boilerplate for elm and elegant to get started quickly!",
+    "repository": "https://github.com/elm-bodybuilder/elegant-template.git",
+    "license": "MIT",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [],
+    "dependencies": {
+        "elm-lang/core": "5.1.1 <= v < 6.0.0",
+        "elm-bodybuilder/elegant": "9.0.0 <= v < 10.0.0",
+        "ccapndave/elm-update-extra": "3.0.0 <= v < 4.0.0"
+    },
+    "dependency-sources": {
+      "elm-bodybuilder/elegant": "git@github.com:elm-bodybuilder/elegant"
+    },
+    "elm-version": "0.18.0 <= v < 0.19.0"
+}
