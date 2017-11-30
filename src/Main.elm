@@ -13,6 +13,7 @@ import Flex
 import Cursor
 import Constants
 import Display
+import Modifiers exposing (Modifier)
 
 
 {- Colors to improve the standard predefined colors of HTML.
@@ -123,12 +124,12 @@ view { color } =
         ]
 
 
-windowHeight : Elegant.Modifier Display.BlockDetails
+windowHeight : Modifier Display.BlockDetails
 windowHeight =
     Block.height (vh 100)
 
 
-paddingMedium : Elegant.Modifier (Attributes.BoxContainer extendable)
+paddingMedium : Modifier (Attributes.BoxContainer extendable)
 paddingMedium =
     Attributes.style [ Style.box [ Box.paddingAll Constants.medium ] ]
 
